@@ -23,6 +23,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //initialize variable to use for our environment port
 var port = 3000;
 
+// models/index.js
+module.exports.Book = require("./book.js");
+
 
 
 ////////////////////
